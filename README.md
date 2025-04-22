@@ -10,4 +10,52 @@
             direction: rtl;
             text-align: right;
             padding: 40px;
-            background-color: #f5f
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #008060;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        main {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .phone {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شركة السلوى للمقاولات</h1>
+    </header>
+
+    <main>
+        <h2>مرحبًا بكم!</h2>
+        <p>نحن نقدم خدمات مقاولات عالية الجودة في جميع أنحاء المملكة.</p>
+        <p class="phone">📞 اتصل بنا: +966544121572</p>
+    </main>
+
+    <footer>
+        جميع الحقوق محفوظة © شركة السلوى للمقاولات 2025
+    </footer>
+</body>
+</html>
