@@ -1,160 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>شركة السلوى للمقاولات</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-      margin: 0;
-      padding: 0;
-      direction: rtl;
-      background-color: #f4f4f4;
-    }
-
-    header {
-      background-color: #008060;
-      color: white;
-      text-align: center;
-      padding: 25px 10px;
-    }
-
-    nav {
-      background: #e9f8f5;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 15px;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    nav a {
-      color: #008060;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      max-width: 900px;
-      background: white;
-      margin: 30px auto;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    section img {
-      width: 100%;
-      border-radius: 6px;
-      margin-top: 15px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #555;
-      background: #f1f1f1;
-    }
-
-    h2 {
-      color: #008060;
-    }
-
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background: #25D366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      font-size: 24px;
-      text-decoration: none;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      z-index: 100;
-    }
-
-    iframe {
-      width: 100%;
-      height: 300px;
-      border: 0;
-      margin-top: 15px;
-      border-radius: 6px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>شركة السلوى للمقاولات</h1>
-    <p>نحن نقدم خدمات مقاولات عالية الجودة في جميع أنحاء المملكة</p>
-  </header>
-
+<header>
+  <h1>شركة السلوى للمقاولات</h1>
   <nav>
     <a href="#about">من نحن</a>
-    <a href="#services">الخدمات</a>
-    <a href="#projects">المشاريع</a>
-    <a href="#why">لماذا نحن؟</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#projects">مشاريعنا</a>
     <a href="#contact">اتصل بنا</a>
   </nav>
+</header>
 
-  <section id="about">
-    <h2>من نحن</h2>
-    <p>شركة السلوى للمقاولات هي شركة سعودية متخصصة في أعمال البناء والتشييد.</p>
-    <img src="images/about.jpg" alt="عن الشركة">
-  </section>
+<section id="hero">
+  <img src="images/hero.jpg" alt="صورة رئيسية">
+  <h2>مرحبًا بكم في شركة السلوى</h2>
+  <p>نقدم خدمات عالية الجودة في المقاولات العامة.</p>
+</section>
 
-  <section id="services">
-    <h2>الخدمات</h2>
-    <ul>
-      <li>أعمال البناء</li>
-      <li>البنية التحتية</li>
-      <li>تصميم هندسي</li>
-      <li>إدارة المشاريع</li>
-    </ul>
-    <img src="images/services.jpg" alt="الخدمات">
-  </section>
+<section id="about">
+  <h2>من نحن</h2>
+  <p>شركة السلوى للمقاولات تقدم أفضل الحلول الإنشائية والهندسية.</p>
+</section>
 
-  <section id="projects">
-    <h2>المشاريع</h2>
-    <p>أنجزنا مشاريع بارزة في جميع أنحاء المملكة.</p>
-    <img src="images/projects.jpg" alt="مشاريع">
-  </section>
+<section id="services">
+  <h2>خدماتنا</h2>
+  <div class="image-box">
+    <img src="images/service1.jpg" alt="خدمة 1">
+    <p>خدمة البناء والتشييد</p>
+  </div>
+  <div class="image-box">
+    <img src="images/service2.jpg" alt="خدمة 2">
+    <p>التصميم الداخلي والخارجي</p>
+  </div>
+</section>
 
-  <section id="why">
-    <h2>لماذا نحن؟</h2>
-    <ul>
-      <li>جودة عالية</li>
-      <li>فريق خبير</li>
-      <li>الالتزام بالمواعيد</li>
-    </ul>
-    <img src="images/why.jpg" alt="لماذا نحن؟">
-  </section>
+<section id="projects">
+  <h2>مشاريعنا</h2>
+  <div class="image-box">
+    <img src="images/project1.jpg" alt="مشروع 1">
+    <p>مشروع سكني بالرياض</p>
+  </div>
+  <div class="image-box">
+    <img src="images/project2.jpg" alt="مشروع 2">
+    <p>مجمع تجاري بجدة</p>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>اتصل بنا</h2>
-    <p><strong>رقم الهاتف:</strong> +966544121572</p>
-    <p><strong>البريد:</strong> info@alsalwa.com</p>
-    <p><strong>العنوان:</strong> المملكة العربية السعودية</p>
+<section id="contact">
+  <h2>اتصل بنا</h2>
+  <p>رقم الهاتف: <strong>+966544121572</strong></p>
+  <a href="https://wa.me/966544121572" target="_blank">راسلنا على واتساب</a>
+</section>
 
-    <!-- Google Map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
-  </section>
-
-  <footer>
-    جميع الحقوق محفوظة © شركة السلوى للمقاولات 2025
-  </footer>
-
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/966544121572" class="whatsapp" target="_blank" title="راسلنا عبر واتساب">⌚</a>
+<footer>
+  <p>© 2025 شركة السلوى للمقاولات - جميع الحقوق محفوظة</p>
+</footer>
 
 </body>
 </html>
